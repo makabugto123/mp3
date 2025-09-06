@@ -11,9 +11,7 @@ import asyncio
 import math
 
 # --- Configuration ---
-TELEGRAM_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN")
-if not TELEGRAM_TOKEN:
-    raise ValueError("Please set the TELEGRAM_BOT_TOKEN environment variable.")
+TELEGRAM_TOKEN = "7751381966:AAFRHJuCsCK069I_a7ln5veJl38iLhlJJvA"
     
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s", level=logging.INFO
